@@ -1,0 +1,186 @@
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+	width: 950px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0px;
+	content: "";
+	clear: both;
+	height: 0px
+}
+
+.xl_m {
+	margin: 40px auto 70px;
+	width: 1200px;
+}
+
+.xl_h2 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: normal;
+	padding: 0 0 62px;
+}
+
+.xl_list li.news_hover {
+	background: #ff7300;
+}
+
+.ba_daxt li.news_hover {
+	background: #ff7400!important;
+	color: #fff
+}
+
+.news_ul li a:hover,
+li.news_hover a {
+	color: #D6A438;
+	border-bottom: 2px solid #D6A438;
+	cursor: pointer
+}
+
+.news_leftnav {
+	border-top: 1px solid #f0f0f0;
+}
+
+.news_leftnav li {
+	border-bottom: 1px solid #f0f0f0;
+	text-align: right;
+	border-right: 4px solid #fff;
+}
+
+.news_leftnav li.news_hover {
+	border-right: 4px solid #D6A438;
+}
+
+.news_leftnav li.news_hover a {
+	border-bottom: 0;
+}
+
+.news_nh2 {
+	font-size: 24px;
+	margin-top: 2px;
+	color: #333;
+	font-weight: bold;
+}
+
+.news_hd li a:hover .about_hd_p,
+.news_hd li a:hover {
+	color: #ff7900;
+	text-decoration: none;
+}
+
+.about_hd_p {
+	color: #5e6267;
+	font-size: 14px;
+	text-align: center;
+	padding: 18px 0 27px
+}
+
+.floata {
+	position: fixed;
+	z-index: 999999;
+	top: 0px;
+	background: #000;
+	height: 38px;
+	width: 100%;
+	left: 0;
+	margin: 0;
+	line-height: 38px;
+}
+
+.floata1 {
+	position: fixed;
+	z-index: 999999;
+	top: 80px;
+	height: 38px;
+	left: 50%;
+	margin: 0 0 0 -600px;
+	line-height: 38px;
+}
+
+.floatCtro {
+	line-height:38px;
+	z-index: 1
+}
+
+.floatCtro li.cur {
+	background: #c40000;
+	color: #fff;
+}
+
+.about_hd {
+	padding-top: 17px;
+	font-size: 18px;
+	color: #333;
+	line-height: 22px;
+	text-indent: 2em;
+	width: 930px;
+}
+
+.about_hd p {
+	padding-bottom: 0px;
+	text-indent: 0em;
+	line-height: 27px;
+}
+
+.env-cnt {
+	margin-top: 25px;
+}
+
+.env-cnt p {
+	font-size: 18px;
+	color: #333;
+	height: 33px;
+	line-height: 33px;
+}
+
+.env-cnt-img {
+	width: 464px;
+	height: 290px;
+	float: left;
+}
+
+.fl-dd {
+	font-size: 18px;
+	color: #333;
+	margin-top: 10px;
+}
+
+.fl-dd-img {
+	width: 950px;
+	height: 425px;
+	margin-top: 10px;
+}
+
+.global-holiday {
+	margin-top: 30px;
+	color: #E6B854;
+	font-size: 18px;
+}
+
+.global-holiday-img {
+	width: 950px;
+	height: 66px;
+}
+
+.OTA_parner-img {
+	width: 950px;
+	height: 242px;
+}
+
+.media_parner-img {
+	width: 950px;
+	height: 154px;
+}
+
+.env-img:after {
+	content: "";
+	display: block;
+	clear: both;
+}
